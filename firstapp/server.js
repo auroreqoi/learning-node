@@ -6,9 +6,6 @@ http.createServer(function(request, response) {
   response.end();
 }).listen(8888);
 
-function say(word) {
-  console.log(word);
-}
 function execute(someFunction, value) {
   someFunction(value);
 }
